@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #EBC017;
+    --text-color: #727171;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: Inter, sans-serif;
+    background-color: black;
+    color: white;
+}
+img{
+    width:100%;
+    margin-top:10px;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+
+}
+.container{
+    max-width:1000px;
+    width: 90%;
+    margin: 0 auto;
+    display:grid;
+    padding: 5rem;
+    background-color: #070707;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+}
+@media only screen and (max-width: 768px){
+    .container{
+        width:100%;
+        grid-template-columns: 1fr;
+        padding: 3rem;
+        gap: 8rem;
+    }
+}
+.profile{
+    grid-column: 1 / -1;
+    margin-bottom: 2rem;
+}
+
+.profile-container{
+    display: flex;
+    gap: 2rem;
+
+}
+.profile-img{
+    max-width:250px;
+}
+.name{
+    font-weight: 600;
+    color:#EBC017;
+    margin-top: 50px;
+    font-size:50px;
+    margin-left: 0;
+    margin-bottom: 0px;
+    
+}
+.profile_title{
+    font-weight:200;
+    color:#ffffff;
+    font-size:25px;
+    margin-bottom: 30px;
+    margin-top:0px;
+}
+.Description{
+    font-weight: 200;
+    color: #727171;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+a{
+    color: white;
+    text-decoration: underline;
+    font-size: 15px;
+}
+h1{
+    color: #EBC017;
+    margin:25px;
+    font-weight: bold;
+}
+li{
+    margin-left:45px;
+    color:#727171;
+    font-weight: 200;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.left{
+    margin-left: 30px;
+}
+.right{
+    margin-left:0px;
+}
+.edc{
+  color: #727171;  
+  margin-bottom: 3px;
+  font-weight: normal;
+  font-size:15px;
+  margin-top: 10px;
+}
+h2{
+    color: white;
+    margin-bottom: 5px;
+    font-weight:300;
+    font-size: 20px;
+}
+h3{
+    margin-bottom: 10px;
+    font-size: 15px ;
+    font-weight: normal;
+    color: #727171;
+
+}
+.p2{
+    margin-top: 50px;
+}
+.exp{
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.ni{
+    margin-left: 0px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #adadad;
+}
+.in{
+    margin-bottom: 30px;
+}
